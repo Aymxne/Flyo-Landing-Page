@@ -22,42 +22,40 @@
 		.about-text-container {
 			margin-top: 3.5rem;
 			h3 {
-				text-align: center;
 				font-family: $fontRaleway;
 				line-height: 1.7;
-				font-size: 1.85em;
+				font-size: 2.55em;
 				font-weight: $fontWeight700;
 				color: $colorDarkBlue;
-				margin-bottom: 25px;
+				text-align: center;
 			}
 
 			P {
 				text-align: center;
-				padding: 0 0.5rem;
-				margin: 1rem auto;
+				margin: 2rem auto;
 				font-family: $fontOpenSans;
-				color: #75738a;
+				color: $colorDesaturatedBlue;
 				font-weight: $fontWeight400;
-				font-size: 1.35em;
-				line-height: 1.75;
+				font-size: 1.1em;
+				line-height: 1.95;
 			}
 
 			.about-btn {
 				margin: 0 auto;
-				max-width: 250px;
-				padding: 1rem 0;
+				max-width: 200px;
+				padding: 0.4rem 0;
 				display: flex;
-				border-bottom: 3px solid $colorModerateCyan;
+				border-bottom: 2px solid $colorModerateCyan;
 				align-items: center;
 				justify-content: space-between;
-				font-size: 1.35em;
+				font-size: 1.05em;
 				font-family: $fontOpenSans;
 				text-decoration: none;
 				color: $colorModerateCyan;
 				font-weight: $fontWeight700;
 
 				span img {
-					height: 38px;
+					height: 25px;
 					display: block;
 				}
 			}
@@ -68,18 +66,19 @@
 		.review-container {
 			margin: 0 auto;
 			margin-top: 2rem;
-			max-width: 700px;
+			max-width: 800px;
 			background-color: #fefeff;
 			border-radius: 10px;
 			padding: 1.5rem 1.75rem;
 
 			.quote {
-				height: 1.55em;
+				height: 20px;
 			}
 
 			p {
 				margin: 1.5rem auto;
-				font-size: 1.25em;
+				font-size: 1em;
+				text-align: left;
 				color: $colorDarkBlue;
 			}
 
@@ -89,7 +88,7 @@
 				justify-content: flex-start;
 
 				.img-container {
-					height: 80px;
+					height: 60px;
 					border-radius: 50%;
 					object-fit: contain;
 					overflow: hidden;
@@ -111,14 +110,14 @@
 						font-weight: $fontWeight700;
 						color: $colorDarkBlue;
 						margin-bottom: 5px;
-						font-size: 1.1em;
+						font-size: 1em;
 					}
 
 					.role-pos {
 						font-family: $fontOpenSans;
 						font-weight: $fontWeight400;
 						color: $colorDesaturatedBlue;
-						font-size: 1.05em;
+						font-size: 1em;
 					}
 				}
 			}
@@ -159,44 +158,42 @@
 		.about-text-container {
 			flex: 1;
 			margin-top: 3.5rem;
+
 			h3 {
 				text-align: left;
 				font-family: $fontRaleway;
 				line-height: 1.7;
-				font-size: 2.85em;
+				font-size: 2.5em;
 				font-weight: $fontWeight700;
 				color: $colorDarkBlue;
-				margin-bottom: 2rem;
 			}
 
 			P {
 				text-align: left;
-				width: 100%;
-
-				margin: 0;
+				margin: 1rem auto;
 				font-family: $fontOpenSans;
-				color: #75738a;
-				font-weight: $fontWeight400;
-				font-size: 1.35em;
-				line-height: 1.75;
+				color: $colorDesaturatedBlue;
+				font-weight: $fontWeight700;
+				font-size: 1.05em;
+				line-height: 1.95;
 			}
 
 			.about-btn {
-				margin: 1rem 0 0 0;
-				max-width: 250px;
-				padding: 1rem 0.5rem;
+				margin: 0.5rem 0;
+				max-width: 200px;
+				padding: 0.4rem 0;
 				display: flex;
-				border-bottom: 3px solid $colorModerateCyan;
+				border-bottom: 2px solid $colorModerateCyan;
 				align-items: center;
 				justify-content: space-between;
-				font-size: 1.25em;
+				font-size: 1.05em;
 				font-family: $fontOpenSans;
 				text-decoration: none;
 				color: $colorModerateCyan;
 				font-weight: $fontWeight700;
 
 				span img {
-					height: 32px;
+					height: 25px;
 					display: block;
 				}
 			}
@@ -207,7 +204,7 @@
 		.review-container {
 			margin: 0;
 			margin-top: 2.5rem;
-			max-width: 700px;
+			width: 90%;
 			background-color: #fefeff;
 			border-radius: 10px;
 			padding: 1.5rem 1.75rem;
@@ -218,8 +215,11 @@
 
 			p {
 				margin: 1.5rem auto;
-				font-size: 1.25em;
+				font-size: 1em;
+				text-align: left;
 				color: $colorDarkBlue;
+				font-weight: $fontWeight400;
+				font-family: $fontOpenSans;
 			}
 
 			.user-review {
@@ -228,7 +228,7 @@
 				justify-content: flex-start;
 
 				.img-container {
-					height: 80px;
+					height: 60px;
 					border-radius: 50%;
 					object-fit: contain;
 					overflow: hidden;
@@ -250,14 +250,14 @@
 						font-weight: $fontWeight700;
 						color: $colorDarkBlue;
 						margin-bottom: 5px;
-						font-size: 1.1em;
+						font-size: 1em;
 					}
 
 					.role-pos {
 						font-family: $fontOpenSans;
 						font-weight: $fontWeight400;
 						color: $colorDesaturatedBlue;
-						font-size: 1.05em;
+						font-size: 1em;
 					}
 				}
 			}
@@ -268,8 +268,8 @@
 			flex: 1;
 			object-fit: contain;
 			height: 80%;
-			width: 100%;
-			margin: auto;
+			width: 80%;
+			margin-left: auto;
 
 			img {
 				margin: 0 auto;

@@ -20,7 +20,7 @@
 
 .header .container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1440px;
 }
 
 .header .container .navbar {
@@ -45,14 +45,14 @@
 }
 
 .header .container .navbar .logo img {
-  width: 100%;
+  width: 60%;
 }
 
 .header .container .navbar .nav-link {
   color: #585989;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.05em;
   -webkit-text-decoration: none rgba(88, 88, 137, 0);
           text-decoration: none rgba(88, 88, 137, 0);
   cursor: pointer;
@@ -81,7 +81,7 @@
 
 .hero .container {
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1440px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,7 +106,7 @@
 .hero .container .hero-text-container h2 {
   font-family: "Raleway", sans-serif;
   line-height: 1.7;
-  font-size: 2.95em;
+  font-size: 1.65em;
   font-weight: 700;
   color: #070439;
 }
@@ -116,7 +116,7 @@
   font-family: "Open Sans", sans-serif;
   color: #585989;
   font-weight: 700;
-  font-size: 1.35em;
+  font-size: 1.05em;
   line-height: 1.95;
 }
 
@@ -137,20 +137,20 @@
 
 .hero .container .hero-text-container form input {
   width: 90%;
-  height: 4rem;
+  height: 3rem;
   margin-bottom: 1rem;
   padding: 0 15px;
-  border: 2px solid #585989;
+  border: 1px solid #585989;
   border-radius: 5px;
   font-family: "Raleway", sans-serif;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .hero .container .hero-text-container form button {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   background-color: #3065f8;
-  height: 4rem;
+  height: 3rem;
   width: 90%;
   border: none;
   margin-top: 0.5rem;
@@ -158,7 +158,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #f6f6fe;
-  font-size: 1.45em;
+  font-size: 1.05em;
   letter-spacing: 0.1em;
 }
 
@@ -207,7 +207,7 @@
     font-family: "Open Sans", sans-serif;
     color: #585989;
     font-weight: 700;
-    font-size: 1.35em;
+    font-size: 1.1em;
     line-height: 1.95;
   }
   .hero .container .hero-text-container form {
@@ -226,13 +226,13 @@
   }
   .hero .container .hero-text-container form input {
     width: 60%;
-    height: 4rem;
+    height: 3rem;
     margin: 0;
     padding: 0 15px;
-    border: 2px solid #585989;
+    border: 1px solid #585989;
     border-radius: 5px;
     font-family: "Raleway", sans-serif;
-    font-size: 1.25em;
+    font-size: 1em;
   }
   .hero .container .hero-text-container form button {
     display: block;
@@ -241,14 +241,14 @@
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
     background-color: #3065f8;
-    height: 4rem;
+    height: 3rem;
     width: 30%;
     border: none;
     border-radius: 5px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     color: #f6f6fe;
-    font-size: 1.45em;
+    font-size: 1em;
     letter-spacing: 0.1em;
   }
   .hero .container .hero-img-container {
@@ -281,7 +281,7 @@
 }
 
 .about-us .container {
-  max-width: 1400px;
+  max-width: 1440px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -306,41 +306,39 @@
 }
 
 .about-us .container .about-text-container h3 {
-  text-align: center;
   font-family: "Raleway", sans-serif;
   line-height: 1.7;
-  font-size: 1.85em;
+  font-size: 2.55em;
   font-weight: 700;
   color: #070439;
-  margin-bottom: 25px;
+  text-align: center;
 }
 
 .about-us .container .about-text-container P {
   text-align: center;
-  padding: 0 0.5rem;
-  margin: 1rem auto;
+  margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
-  color: #75738a;
+  color: #585989;
   font-weight: 400;
-  font-size: 1.35em;
-  line-height: 1.75;
+  font-size: 1.1em;
+  line-height: 1.95;
 }
 
 .about-us .container .about-text-container .about-btn {
   margin: 0 auto;
-  max-width: 250px;
-  padding: 1rem 0;
+  max-width: 200px;
+  padding: 0.4rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-bottom: 3px solid #3c9f8f;
+  border-bottom: 2px solid #3c9f8f;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 1.35em;
+  font-size: 1.05em;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: #3c9f8f;
@@ -348,26 +346,27 @@
 }
 
 .about-us .container .about-text-container .about-btn span img {
-  height: 38px;
+  height: 25px;
   display: block;
 }
 
 .about-us .container .review-container {
   margin: 0 auto;
   margin-top: 2rem;
-  max-width: 700px;
+  max-width: 800px;
   background-color: #fefeff;
   border-radius: 10px;
   padding: 1.5rem 1.75rem;
 }
 
 .about-us .container .review-container .quote {
-  height: 1.55em;
+  height: 20px;
 }
 
 .about-us .container .review-container p {
   margin: 1.5rem auto;
-  font-size: 1.25em;
+  font-size: 1em;
+  text-align: left;
   color: #070439;
 }
 
@@ -384,7 +383,7 @@
 }
 
 .about-us .container .review-container .user-review .img-container {
-  height: 80px;
+  height: 60px;
   border-radius: 50%;
   -o-object-fit: contain;
      object-fit: contain;
@@ -415,14 +414,14 @@
   font-weight: 700;
   color: #070439;
   margin-bottom: 5px;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .about-us .container .review-container .user-review .user-text .role-pos {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #585989;
-  font-size: 1.05em;
+  font-size: 1em;
 }
 
 .about-us .container .about-img-container {
@@ -448,7 +447,7 @@
     display: flex;
   }
   .about-us .container {
-    max-width: 1400px;
+    max-width: 1440px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -477,49 +476,47 @@
     text-align: left;
     font-family: "Raleway", sans-serif;
     line-height: 1.7;
-    font-size: 2.85em;
+    font-size: 2.5em;
     font-weight: 700;
     color: #070439;
-    margin-bottom: 2rem;
   }
   .about-us .container .about-text-container P {
     text-align: left;
-    width: 100%;
-    margin: 0;
+    margin: 1rem auto;
     font-family: "Open Sans", sans-serif;
-    color: #75738a;
-    font-weight: 400;
-    font-size: 1.35em;
-    line-height: 1.75;
+    color: #585989;
+    font-weight: 700;
+    font-size: 1.05em;
+    line-height: 1.95;
   }
   .about-us .container .about-text-container .about-btn {
-    margin: 1rem 0 0 0;
-    max-width: 250px;
-    padding: 1rem 0.5rem;
+    margin: 0.5rem 0;
+    max-width: 200px;
+    padding: 0.4rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border-bottom: 3px solid #3c9f8f;
+    border-bottom: 2px solid #3c9f8f;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    font-size: 1.25em;
+    font-size: 1.05em;
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     color: #3c9f8f;
     font-weight: 700;
   }
   .about-us .container .about-text-container .about-btn span img {
-    height: 32px;
+    height: 25px;
     display: block;
   }
   .about-us .container .review-container {
     margin: 0;
     margin-top: 2.5rem;
-    max-width: 700px;
+    width: 90%;
     background-color: #fefeff;
     border-radius: 10px;
     padding: 1.5rem 1.75rem;
@@ -529,8 +526,11 @@
   }
   .about-us .container .review-container p {
     margin: 1.5rem auto;
-    font-size: 1.25em;
+    font-size: 1em;
+    text-align: left;
     color: #070439;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
   }
   .about-us .container .review-container .user-review {
     display: -webkit-box;
@@ -544,7 +544,7 @@
             justify-content: flex-start;
   }
   .about-us .container .review-container .user-review .img-container {
-    height: 80px;
+    height: 60px;
     border-radius: 50%;
     -o-object-fit: contain;
        object-fit: contain;
@@ -572,13 +572,13 @@
     font-weight: 700;
     color: #070439;
     margin-bottom: 5px;
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .about-us .container .review-container .user-review .user-text .role-pos {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: #585989;
-    font-size: 1.05em;
+    font-size: 1em;
   }
   .about-us .container .about-img-container {
     -webkit-box-flex: 1;
@@ -587,8 +587,8 @@
     -o-object-fit: contain;
        object-fit: contain;
     height: 80%;
-    width: 100%;
-    margin: auto;
+    width: 80%;
+    margin-left: auto;
   }
   .about-us .container .about-img-container img {
     margin: 0 auto;
@@ -608,7 +608,7 @@
 
 .news-letter .container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1440px;
 }
 
 .news-letter .news-text-container {
@@ -626,11 +626,12 @@
 }
 
 .news-letter .news-text-container p {
+  width: 80%;
   margin: 40px auto;
   font-family: "Open Sans", sans-serif;
   color: #f6f6fe;
   font-weight: 400;
-  font-size: 1.35em;
+  font-size: 1em;
   line-height: 1.95;
 }
 
@@ -651,28 +652,28 @@
 
 .news-letter .sign-up-form form input {
   width: 90%;
-  height: 4rem;
-  margin-bottom: 4px;
+  height: 3rem;
+  margin-bottom: 1rem;
   padding: 0 15px;
-  border: 2px solid #585989;
+  border: 1px solid #585989;
   border-radius: 5px;
   font-family: "Raleway", sans-serif;
-  font-size: 1.25em;
+  font-size: 1.05em;
 }
 
 .news-letter .sign-up-form form button {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   background-color: #3065f8;
-  height: 4rem;
+  height: 3rem;
   width: 90%;
   border: none;
-  margin-top: 4px;
+  margin-top: 0.5rem;
   border-radius: 5px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #f6f6fe;
-  font-size: 1.25em;
+  font-size: 1.05em;
   letter-spacing: 0.1em;
 }
 
@@ -709,19 +710,52 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    width: 100%;
+  }
+  .news-letter .container .sign-up-form form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .news-letter .container .sign-up-form form input {
-    width: 100%;
-    margin-bottom: 15px;
-    margin-right: auto;
+    width: 80%;
+    height: 3rem;
+    padding: 0 15px;
+    border: 1px solid #585989;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
   }
   .news-letter .container .sign-up-form form button {
-    cursor: pointer;
-    margin-top: 15px;
+    display: block;
+    margin: 0;
+    margin-right: 8%;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
-    margin-right: auto;
-    max-width: 50%;
+    background-color: #3065f8;
+    height: 3rem;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #f6f6fe;
+    font-size: 1em;
+    letter-spacing: 0.1em;
   }
 }
 
@@ -735,7 +769,7 @@
 
 .footer .container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -770,7 +804,7 @@
 .footer .container .firstCol .content span {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 1.35em;
+  font-size: 1.05em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -782,7 +816,7 @@
 
 .footer .container .firstCol .content span img {
   margin-right: 20px;
-  width: 30px;
+  width: 20px;
 }
 
 .footer .container .col {
@@ -812,7 +846,7 @@
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 1.35em;
+  font-size: 1.05em;
   margin: 10px 0;
   letter-spacing: px;
   color: #f6f6fe;
@@ -823,7 +857,7 @@
 }
 
 .footer .container .col a:hover {
-  border-bottom: 3px solid #f6f6fe;
+  border-bottom: 2px solid #f6f6fe;
 }
 
 .footer .container .social {
@@ -854,7 +888,7 @@
 
 .footer .container .social a i {
   display: block;
-  font-size: 1.35em;
+  font-size: 1.05em;
 }
 
 .footer .container .social a:hover {
