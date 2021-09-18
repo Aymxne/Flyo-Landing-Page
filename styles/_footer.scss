@@ -1,0 +1,128 @@
+@import "./variables";
+
+.footer {
+	background-color: $colorDarkBlue;
+	padding-top: 3.5em;
+	padding-bottom: 3.5em;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+
+	.container {
+		width: 100%;
+		max-width: $desktopView;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+
+		.firstCol {
+			.logo {
+				margin-bottom: 2em;
+			}
+
+			.content {
+				margin-top: 25px;
+				margin-bottom: 25px;
+
+				display: flex;
+				flex-direction: column;
+				color: $colorLightGrayBlue;
+
+				span {
+					font-family: $fontOpenSans;
+					font-weight: $fontWeight400;
+					font-size: 1.35em;
+					display: flex;
+					align-items: center;
+					margin: 10px 0;
+
+					img {
+						margin-right: 20px;
+						width: 30px;
+					}
+				}
+			}
+		}
+
+		.col {
+			height: 100%;
+			margin: 25px 0;
+			flex: 1;
+			display: flex;
+			@include flexCenter(center, flex-start);
+			flex-direction: column;
+
+			a {
+				cursor: pointer;
+				text-decoration: none;
+				font-family: $fontOpenSans;
+				font-weight: $fontWeight400;
+				font-size: 1.35em;
+				margin: 10px 0;
+				letter-spacing: px;
+				color: $colorLightGrayBlue;
+
+				padding: 0.25rem 0;
+				border-bottom: 3px solid hsla(240, 80%, 98%, 0);
+				transition: all ease 0.2s;
+
+				&:hover {
+					border-bottom: 3px solid hsl(240, 75%, 98%);
+				}
+			}
+		}
+
+		.social {
+			flex-direction: row;
+
+			a {
+				width: 2.75em;
+				height: 2.75em;
+				border: 1px solid $colorLightGrayBlue;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin: 0px 1em;
+				border-radius: 50px;
+				transition: all ease 0.2s;
+
+				i {
+					display: block;
+					font-size: 1.35em;
+				}
+
+				&:hover {
+					background-color: rgba(255, 255, 255, 0.5);
+				}
+			}
+		}
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.footer {
+		.container {
+			flex-direction: row;
+			transition: all ease 0.2s;
+
+			.firstCol {
+				.logo {
+					margin-bottom: 1.5em;
+				}
+			}
+		}
+	}
+}

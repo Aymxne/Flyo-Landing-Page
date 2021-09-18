@@ -1,0 +1,56 @@
+@import "./variables";
+
+// Mixing is like a mini function
+@mixin flexCenter($justContent, $alignItem) {
+	display: flex;
+	align-items: $alignItem;
+	justify-content: $justContent;
+}
+
+// Header Styling Start
+
+.header {
+	@include flexCenter(center, center);
+	width: 100%;
+
+	.container {
+		width: 100%;
+		max-width: $desktopView;
+
+		.navbar {
+			padding: 0 5px;
+			margin: auto;
+			min-height: 100px;
+			@include flexCenter(space-between, center);
+
+			.logo {
+				cursor: pointer;
+				object-fit: cover;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.nav-link {
+				color: $colorDesaturatedBlue;
+				font-family: $fontRaleway;
+				font-weight: $fontWeight400;
+				font-size: 1.5em;
+				text-decoration: none hsla(239, 22%, 44%, 0);
+				cursor: pointer;
+				margin: 0 0.5em;
+				transition: all 0.2s;
+
+				&:hover {
+					text-decoration: underline 3px $colorBrightBlue;
+					text-underline-offset: 2px;
+				}
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

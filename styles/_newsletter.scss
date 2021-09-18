@@ -1,0 +1,125 @@
+.news-letter {
+	padding-top: 3.5em;
+	padding-bottom: 3.5em;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	background-color: $colorDesaturatedBlue;
+
+	.container {
+		width: 100%;
+		max-width: $desktopView;
+	}
+
+	.news-text-container {
+		text-align: center;
+
+		h3 {
+			text-align: center;
+			font-family: $fontRaleway;
+			line-height: 1.7;
+			font-size: 1.85em;
+			letter-spacing: 0.1em;
+			font-weight: $fontWeight700;
+			color: $colorLightGrayBlue;
+		}
+
+		p {
+			margin: 40px auto;
+			font-family: $fontOpenSans;
+			color: $colorLightGrayBlue;
+			font-weight: $fontWeight400;
+			font-size: 1.35em;
+			line-height: 1.95;
+		}
+	}
+
+	.sign-up-form {
+		form {
+			display: flex;
+			flex-wrap: wrap;
+			@include flexCenter(center, center);
+
+			input {
+				width: 90%;
+				height: 4rem;
+				margin-bottom: 4px;
+				padding: 0 15px;
+				border: 2px solid $colorDesaturatedBlue;
+				border-radius: 5px;
+				font-family: $fontRaleway;
+				font-size: 1.25em;
+			}
+
+			button {
+				transition: all 0.2s ease;
+				background-color: $colorBrightBlue;
+				height: 4rem;
+				width: 90%;
+				border: none;
+				margin-top: 4px;
+				border-radius: 5px;
+				font-family: $fontRaleway;
+				font-weight: $fontWeight700;
+				color: $colorLightGrayBlue;
+				font-size: 1.25em;
+				letter-spacing: 0.1em;
+			}
+		}
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.news-letter .container {
+		padding-top: 3.5em;
+		padding-bottom: 3.5em;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		.news-text-container {
+			flex: 1;
+			text-align: left;
+
+			h3 {
+				text-align: left;
+			}
+
+			p {
+				margin: 40px auto 0 0;
+				width: 80%;
+				text-align: left;
+			}
+		}
+
+		.sign-up-form {
+			flex: 1;
+
+			form {
+				input {
+					width: 100%;
+					margin-bottom: 15px;
+					margin-right: auto;
+				}
+
+				button {
+					cursor: pointer;
+					margin-top: 15px;
+					transition: all 0.2s ease;
+					margin-right: auto;
+					max-width: 50%;
+				}
+			}
+		}
+	}
+}

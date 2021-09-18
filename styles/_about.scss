@@ -1,0 +1,282 @@
+@import "./variables";
+
+.about-us {
+	padding-top: 3.5em;
+	padding-bottom: 3.5em;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	background-image: url(/images/bg-curve-mobile.svg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+
+	.container {
+		max-width: $desktopView;
+		display: flex;
+		@include flexCenter(space-between, center);
+		flex-direction: column-reverse;
+		margin: 0 auto;
+		transition: all 0.2s ease;
+
+		// About Text container
+		.about-text-container {
+			margin-top: 3.5rem;
+			h3 {
+				text-align: center;
+				font-family: $fontRaleway;
+				line-height: 1.7;
+				font-size: 1.85em;
+				font-weight: $fontWeight700;
+				color: $colorDarkBlue;
+				margin-bottom: 25px;
+			}
+
+			P {
+				text-align: center;
+				padding: 0 0.5rem;
+				margin: 1rem auto;
+				font-family: $fontOpenSans;
+				color: #75738a;
+				font-weight: $fontWeight400;
+				font-size: 1.35em;
+				line-height: 1.75;
+			}
+
+			.about-btn {
+				margin: 0 auto;
+				max-width: 250px;
+				padding: 1rem 0;
+				display: flex;
+				border-bottom: 3px solid $colorModerateCyan;
+				align-items: center;
+				justify-content: space-between;
+				font-size: 1.35em;
+				font-family: $fontOpenSans;
+				text-decoration: none;
+				color: $colorModerateCyan;
+				font-weight: $fontWeight700;
+
+				span img {
+					height: 38px;
+					display: block;
+				}
+			}
+		}
+
+		// Review container
+
+		.review-container {
+			margin: 0 auto;
+			margin-top: 2rem;
+			max-width: 700px;
+			background-color: #fefeff;
+			border-radius: 10px;
+			padding: 1.5rem 1.75rem;
+
+			.quote {
+				height: 1.55em;
+			}
+
+			p {
+				margin: 1.5rem auto;
+				font-size: 1.25em;
+				color: $colorDarkBlue;
+			}
+
+			.user-review {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+
+				.img-container {
+					height: 80px;
+					border-radius: 50%;
+					object-fit: contain;
+					overflow: hidden;
+					display: flex;
+
+					img {
+						display: block;
+						width: 100%;
+					}
+				}
+
+				.user-text {
+					margin-left: 2em;
+					display: flex;
+					flex-direction: column;
+
+					.name {
+						font-family: $fontRaleway;
+						font-weight: $fontWeight700;
+						color: $colorDarkBlue;
+						margin-bottom: 5px;
+						font-size: 1.1em;
+					}
+
+					.role-pos {
+						font-family: $fontOpenSans;
+						font-weight: $fontWeight400;
+						color: $colorDesaturatedBlue;
+						font-size: 1.05em;
+					}
+				}
+			}
+		}
+
+		// About Imgae Container
+		.about-img-container {
+			object-fit: contain;
+			margin-top: 50px;
+			height: 100%;
+			width: 100%;
+
+			img {
+				display: block;
+				height: 100%;
+				width: 100%;
+			}
+		}
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.about-us {
+		min-height: 70vh;
+		display: flex;
+	}
+
+	.about-us .container {
+		max-width: $desktopView;
+		display: flex;
+		@include flexCenter(space-between, flex-start);
+		flex-direction: row;
+		margin: 0 auto;
+		transition: all 0.2s;
+
+		// About Text container
+		.about-text-container {
+			flex: 1;
+			margin-top: 3.5rem;
+			h3 {
+				text-align: left;
+				font-family: $fontRaleway;
+				line-height: 1.7;
+				font-size: 2.85em;
+				font-weight: $fontWeight700;
+				color: $colorDarkBlue;
+				margin-bottom: 2rem;
+			}
+
+			P {
+				text-align: left;
+				width: 100%;
+
+				margin: 0;
+				font-family: $fontOpenSans;
+				color: #75738a;
+				font-weight: $fontWeight400;
+				font-size: 1.35em;
+				line-height: 1.75;
+			}
+
+			.about-btn {
+				margin: 1rem 0 0 0;
+				max-width: 250px;
+				padding: 1rem 0.5rem;
+				display: flex;
+				border-bottom: 3px solid $colorModerateCyan;
+				align-items: center;
+				justify-content: space-between;
+				font-size: 1.25em;
+				font-family: $fontOpenSans;
+				text-decoration: none;
+				color: $colorModerateCyan;
+				font-weight: $fontWeight700;
+
+				span img {
+					height: 32px;
+					display: block;
+				}
+			}
+		}
+
+		// Review container
+
+		.review-container {
+			margin: 0;
+			margin-top: 2.5rem;
+			max-width: 700px;
+			background-color: #fefeff;
+			border-radius: 10px;
+			padding: 1.5rem 1.75rem;
+
+			.quote {
+				height: 1.55em;
+			}
+
+			p {
+				margin: 1.5rem auto;
+				font-size: 1.25em;
+				color: $colorDarkBlue;
+			}
+
+			.user-review {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+
+				.img-container {
+					height: 80px;
+					border-radius: 50%;
+					object-fit: contain;
+					overflow: hidden;
+					display: flex;
+
+					img {
+						display: block;
+						width: 100%;
+					}
+				}
+
+				.user-text {
+					margin-left: 2em;
+					display: flex;
+					flex-direction: column;
+
+					.name {
+						font-family: $fontRaleway;
+						font-weight: $fontWeight700;
+						color: $colorDarkBlue;
+						margin-bottom: 5px;
+						font-size: 1.1em;
+					}
+
+					.role-pos {
+						font-family: $fontOpenSans;
+						font-weight: $fontWeight400;
+						color: $colorDesaturatedBlue;
+						font-size: 1.05em;
+					}
+				}
+			}
+		}
+
+		// About Imgae Container
+		.about-img-container {
+			flex: 1;
+			object-fit: contain;
+			height: 80%;
+			width: 100%;
+			margin: auto;
+
+			img {
+				margin: 0 auto;
+				display: block;
+				height: 100%;
+				width: 100%;
+			}
+		}
+	}
+}
